@@ -486,34 +486,166 @@
   .our-cases-area .container .row .arrow-icon .next-icon-next:hover {
 	color: #0066ff;
   }
-  .our-cases-area .container .row {
-	  .team-area-slider{
-		 .team-area-item {
-			 margin: 8px; 
-			  
-
-			 h5{
-				 font-weight: 600;
-				 font-size: 20px;
-				 color:#333333;
-			 }
-			 a{
-				 font-family: 'Montserrat', sans-serif;
-				 font-weight: 600;
-				 font-size: 14px;
-				 color:#333333;
-				 transition:.3s ;
-				 -webkit-transition:.3s ;
-				 -moz-transition:.3s ;
-				 -ms-transition:.3s ;
-				 -o-transition:.3s ;
-}
-a:hover{
+  
+  .our-cases-area .container .row .team-area-slider .team-area-item {
+	margin: 8px;
+  }
+  
+  .our-cases-area .container .row .team-area-slider .team-area-item h5 {
+	font-weight: 600;
+	font-size: 20px;
+	color: #333333;
+  }
+  
+  .our-cases-area .container .row .team-area-slider .team-area-item a {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	color: #333333;
+	transition: .3s;
+	-webkit-transition: .3s;
+	-moz-transition: .3s;
+	-ms-transition: .3s;
+	-o-transition: .3s;
+  }
+  
+  .our-cases-area .container .row .team-area-slider .team-area-item a:hover {
 	color: #0066ff;
-}
-		 } 
+  }
+  
+  /* end our case area */
+  /* start testimonial area */
+  .testimonial-area {
+	background: #f0f0f07a;
+	margin-top: 90px;
+  }
+  
+  .testimonial-area .container .row .testimonial-content {
+	margin-top: 80px;
+  }
+  
+  .testimonial-area .container .row .testimonial-content p {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 1.2;
+	color: #333333;
+  }
+  
+  .testimonial-area .container .row .testimonial-content img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+  }
+  
+  .testimonial-area .container .row .testimonial-content .testimonial-title {
+	margin-left: 57px;
+	margin-top: -39px;
+  }
+  
+  .testimonial-area .container .row .testimonial-content .testimonial-title h4 {
+	font-weight: 700;
+	font-size: 18px;
+	padding-top: 6px;
+	margin-bottom: 0px;
+  }
+  
+  .testimonial-area .container .row .testimonial-content .testimonial-title span {
+	font-weight: 600;
+	font-size: 12px;
+	color: #999999;
+  }
+  
+  .testimonial-area .container .row .testimonial-icon .testi-prev, .testimonial-area .container .row .testimonial-icon .testi-next {
+	color: #999999;
+  }
+  
+  .testimonial-area .container .row .testimonial-icon i {
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+  }
+  
+  .testimonial-area .container .row .testimonial-icon i:hover {
+	color: #0066ff;
+  }
+  
+  .testimonial-area .container .row .form-body {
+	background-color: #0066ff;
+	padding: 43px;
+	margin-top: -50px;
+	margin-bottom: -50px;
+  }
+  
+  .testimonial-area .container .row .form-body form h3 {
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 25px;
+  }
+  
+  .testimonial-area .container .row .form-body form input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 20px;
+	border: none;
+  }
+  
+  .testimonial-area .container .row .form-body form .nice-select {
+	cursor: pointer;
+	font-size: 18px;
+	font-weight: 600;
+	width: 100%;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+  }
+  
+  .testimonial-area .container .row .form-body form textarea {
+	width: 100%;
+	margin-top: 20px;
+	border: none;
+  }
+  
+  .testimonial-area .container .row .form-body form button {
+	font-weight: 700;
+	font-size: 14px;
+	background-color: #12209c;
+	color: #fff;
+	padding: 8px;
+	border: none;
+	cursor: pointer;
+	margin-top: 30px;
+	width: 150px;
+	transition: .4s;
+	-webkit-transition: .4s;
+	-moz-transition: .4s;
+	-ms-transition: .4s;
+	-o-transition: .4s;
+  }
+  
+  .testimonial-area .container .row .form-body form button:hover {
+	color: #18f7ff;
+  }
+  
+  /* end testimonial area */
+  /* start band area */
+  .band-area {
+	  .container {
+		  .owl-carousel{
+			 .band-item{
+				img{
+					width: inherit;
+				}
+			 } 
+		  }
 	  }
   }
-
-
-  /* end our case area */
+  /* start band area */
