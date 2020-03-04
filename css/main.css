@@ -105,6 +105,7 @@ span {
   background: #0066ff;
   width: 160px;
   text-align: center;
+  text-decoration: none;
   padding: 10px 0px;
   color: rgba(246, 242, 6, 0.89);
   transition: .3s;
@@ -346,6 +347,7 @@ header .menu-area .container .row .get-quote a:hover {
 
 .service-area .main-arrow .preve-arrow-left h5, .next-arrow-right h5 {
   cursor: pointer;
+  color: #999999;
   text-transform: uppercase;
   transition: .4s;
   -webkit-transition: .4s;
@@ -379,4 +381,137 @@ header .menu-area .container .row .get-quote a:hover {
   background: #0066ff;
   margin-right: 5px;
 }
+
+/* start contact area */
+.contact-area {
+  background: #000000;
+  padding: 60px 0;
+  margin-top: 20px;
+}
+
+.contact-area .container .row .contact-content {
+  text-align: center;
+}
+
+.contact-area .container .row .contact-content p {
+  color: #fff;
+  font-size: 24px;
+}
+
+.contact-area .container .row .contact-content h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1;
+}
+
+.contact-area .container .row .contact-content .btn-primary {
+  margin-top: 10px;
+  color: black;
+  font-weight: 700;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+
+.contact-area .container .row .contact-content .btn-primary:hover {
+  color: #fff;
+}
+
+.contact-area .container .row .contact-content .playe-icon {
+  color: #fff;
+  font-weight: 600;
+  font-size: 19px;
+  display: inline-block;
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.contact-area .container .row .contact-content .playe-icon i {
+  font-size: 18px;
+}
+
+.contact-area .container .row .contact-content .playe-icon:hover {
+  text-decoration: none;
+  color: #e40fd2;
+}
+
+/* end contact area */
+/* start our case area */
+.our-cases-area {
+  margin-top: 50px;
+}
+
+.our-cases-area .container .row .title {
+  width: 49%;
+}
+
+.our-cases-area .container .row .title h2::after {
+  right: 184px;
+}
+
+.our-cases-area .container .row .arrow-icon {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  float: right;
+}
+
+.our-cases-area .container .row .arrow-icon .preve-icon-prev {
+  margin: 5px;
+  color: #666666;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+.our-cases-area .container .row .arrow-icon .preve-icon-prev:hover {
+  color: #0066ff;
+}
+
+.our-cases-area .container .row .arrow-icon .next-icon-next {
+  margin: 5px;
+  color: #666666;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+.our-cases-area .container .row .arrow-icon .next-icon-next:hover {
+  color: #0066ff;
+}
+
+.our-cases-area .container .row .team-area-slider .team-area-item {
+  margin: 8px;
+}
+
+.our-cases-area .container .row .team-area-slider .team-area-item h5 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #333333;
+}
+
+.our-cases-area .container .row .team-area-slider .team-area-item a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #333333;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+
+.our-cases-area .container .row .team-area-slider .team-area-item a:hover {
+  color: #0066ff;
+}
+
+/* end our case area */
 /*# sourceMappingURL=main.css.map */

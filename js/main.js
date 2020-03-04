@@ -11,5 +11,15 @@ $('.slider-active').slick({
   variableWidth: true,
    
   });
+$('.team-area-slider').slick({
+    autoplay: true,
+  autoplaySpeed: 2000,
+   speed: 300,
+   prevArrow:".preve-icon-prev",
+   nextArrow: ".next-icon-next",
+    slidesToShow: 1,
+  variableWidth: true,
+   
+  });
 
 });
