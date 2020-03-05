@@ -52,6 +52,33 @@ $('.testimonial-active').slick({
  
 });
 
+// ======================================================
+ $('.accordion .one').click(function(){
+    $(this).fadeOut();
+    $('.two').css({'display': 'inline-block'});
+ });
+ $('.accordion .two').click(function(){
+       $(this).css({'display': 'none'});
+    $(".one").fadeIn();
+ });
+ $('.accordion .three').click(function(){
+     $(this).css({'display':'none',});
+     $('.four').fadeIn();
+ });
+ $('.accordion .four').click(function(){
+    $(this).fadeOut();
+    $('.three').css({'display':'inline-block',});
+ });
+ $('.accordion .five').click(function(){
+  $(this).fadeOut();
+  $('.six').css({'display': 'inline-block'});
+});
+$('.accordion .six').click(function(){
+     $(this).css({'display': 'none'});
+  $(".five").fadeIn();
+});
+// =============================================
+
   // nice select 
   $('select').niceSelect();
 
