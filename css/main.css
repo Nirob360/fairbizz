@@ -749,4 +749,88 @@ header .menu-area .container .row .get-quote a:hover {
 }
 
 /* end fa-question-area */
+/* start blog-area */
+.blog-area {
+  background: #f0f0f07a;
+  margin-top: 60px;
+  padding: 35px;
+}
+
+.blog-area .container .title h2::after {
+  right: 296px;
+}
+
+.blog-area .container .row h5 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.blog-area .container .row p {
+  color: #0066ff;
+}
+
+.blog-area .container .row p a {
+  text-decoration: none;
+  color: #999999;
+  margin-right: 14px;
+}
+
+.blog-area .container .row p a:hover {
+  color: #0066ff;
+}
+
+.blog-area .container .row .btn-link-cs {
+  color: #000;
+  margin-top: 18px;
+}
+
+.blog-area .container .row .btn-link-cs:hover {
+  color: #0066ff;
+}
+
+/* end blog-area */
+/* start footer-area */
+.footer-area {
+  padding: 90px 0px;
+  background: url("../img/fbg/1.png") no-repeat center top/cover;
+}
+
+.footer-area .container .row h1 {
+  font-weight: 800;
+  font-size: 30px;
+  color: #fff;
+}
+
+.footer-area .container .row p {
+  font-size: 13px;
+  color: #fff;
+}
+
+.footer-area .container .row form {
+  position: relative;
+}
+
+.footer-area .container .row form input {
+  background: transparent;
+  color: #fff;
+  padding: 5px 22px;
+}
+
+.footer-area .container .row form button {
+  background: transparent;
+  position: absolute;
+  right: 106px;
+  top: 5px;
+  border: none;
+}
+
+.footer-area .container .row form i {
+  color: #fff;
+}
+
+.footer-area .container .row form i:hover {
+  color: #0066ff;
+}
+
+/* end footer-area */
 /*# sourceMappingURL=main.css.map */

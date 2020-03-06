@@ -749,3 +749,83 @@
   }
   
   /* end fa-question-area */
+  /* start blog-area */
+  .blog-area {
+	  background:#f0f0f07a;
+	  margin-top: 60px;
+	  padding: 35px;
+	  
+	.container {
+		.title h2::after {
+			right: 296px;
+		
+	}
+	.row {
+		h5 {
+			font-weight: 600;
+			font-size: 16px;
+		}
+		p {
+			a{
+				text-decoration: none;
+				color: #999999;
+				margin-right: 14px;
+			}
+			a:hover{
+				color:#0066ff;
+			}
+			color:#0066ff;
+		}
+		.btn-link-cs{
+			color:#000  ;
+			margin-top: 18px;
+		}
+		.btn-link-cs:hover{
+			color:#0066ff;
+		}
+	}
+	}
+  }
+  /* end blog-area */
+  /* start footer-area */
+   .footer-area {
+	   padding: 90px 0px;
+	   background:url("../img/fbg/1.png") no-repeat center top / cover ;
+	   .container {
+		   .row {
+			  h1{
+				  font-weight: 800;
+				  font-size: 30px;
+				  color:#fff;
+				  
+			  } 
+			  p{
+				  font-size: 13px;
+				  color:#fff;
+			  }
+			 form {
+				 position: relative;
+				input {
+					background:transparent;
+					color:#fff;
+					padding: 5px 22px;
+				}
+				button{
+					background: transparent;
+						position: absolute;
+						right: 106px;
+						top: 5px;
+						border: none;
+					}					i {
+						color:#fff;
+					}
+					i:hover{
+						color:#0066ff;
+					}
+				}
+			 }
+		   }
+	   }
+   
+  /* end footer-area */
+   
